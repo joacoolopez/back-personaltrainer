@@ -10,4 +10,4 @@ router.get('/name/:id', getPlanName)
 router.put('/price/:id', updatePrice)
 router.get('/price/:id', getPrice)
 
-module.exports = router
+export default router

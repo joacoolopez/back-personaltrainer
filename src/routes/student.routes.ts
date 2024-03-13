@@ -8,4 +8,4 @@ router.get('/', getStudents)
 router.put('/update/:studentId/plans/:planId', verifyTokenMiddleWare, setSendStudent)
 
 
-module.exports = router
+export default router

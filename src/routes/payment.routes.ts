@@ -6,4 +6,4 @@ const router = Router()
 router.post('/create-order', createOrder)
 router.post('/webhook', webhook)
 
-module.exports = router
+export default router

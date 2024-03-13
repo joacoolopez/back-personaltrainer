@@ -6,4 +6,4 @@ const router = Router()
 
 router.get('/', verifyTokenMiddleWare, getMovements)
 
-module.exports = router
+export default router
