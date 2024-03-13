@@ -1,6 +1,6 @@
 import { User } from "../interfaces/user.interface";
 import UserModel from "../models/user";
-import { encrypt, isValidPassword } from "../utils/bcrypt";
+import { encrypt, isValidPassword } from "../utils/crypt";
 import { generateToken } from "../utils/jwt";
 
 const register = async (user:User) => {
