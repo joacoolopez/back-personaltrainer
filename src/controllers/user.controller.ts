@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-const userService = require ("../services/user.service.ts")
+const userService = require ("../services/user.service")
 
 const register = async (req:Request, res:Response) => {
     try {

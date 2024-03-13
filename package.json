@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
-    "dev": "nodemon ./src/app.ts",
+    "dev": "nodemon src/app.ts",
     "build": "tsc",
-    "start": "node dist/app.js"
+    "start": "node build/app.js"
   },
   "keywords": [],
   "author": "",
-  "type": "module",
   "license": "ISC",
   "dependencies": {
     "@types/bcrypt": "^5.0.2",

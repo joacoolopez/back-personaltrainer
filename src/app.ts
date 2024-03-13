@@ -1,5 +1,5 @@
 import express from "express";
-import dbConnection from "./config/mongo";
+import {dbConnection} from "./config/mongo";
 import cors from "cors"
 import paymentRoutes from "./routes/payment.routes";
 import userRoutes from "./routes/user.routes";
